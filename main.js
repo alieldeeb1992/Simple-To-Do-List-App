@@ -17,10 +17,7 @@ saveBtn.addEventListener("click", () => {
     myLi.append(mySpan);
     myInput.value = "";
     localStorage.setItem("data", myAllTasks.innerHTML);
-      }
-    })
   }
- 
 });
 // Add the through line effect by Adding class "done" to the finished task when get clicked
 myAllTasks.addEventListener("click", (e) => {
