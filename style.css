@@ -46,6 +46,11 @@
   color: white;
   flex: 1;
   cursor: pointer;
+  color: white;
+}
+
+.work input::placeholder {
+  color: white;
 }
 
 .work button {
