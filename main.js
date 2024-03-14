@@ -20,9 +20,7 @@ saveBtn.addEventListener("click", () => {
       }
     })
   }
-  document.body.addEventListener("keyUp",(e)=>{
-      if(e.key ==="Enter"){
-        saveBtn.click();
+ 
 });
 // Add the through line effect by Adding class "done" to the finished task when get clicked
 myAllTasks.addEventListener("click", (e) => {
