@@ -19,6 +19,12 @@ saveBtn.addEventListener("click", () => {
     localStorage.setItem("data", myAllTasks.innerHTML);
   }
 });
+//Make the Enter Key as Save Button
+document.body.addEventListener("keyup", (e) => {
+  if (e.key === "Enter") {
+    saveBtn.click();
+  }
+});
 // Add the through line effect by Adding class "done" to the finished task when get clicked
 myAllTasks.addEventListener("click", (e) => {
   if (e.target.tagName === "LI") {
